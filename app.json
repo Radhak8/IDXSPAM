@@ -1,0 +1,107 @@
+{
+  "name": "Spam User Bot By Radha !",
+  "description": "Pyrogram based User Spam by Radha !",
+  "logo": "https://te.legra.ph/file/e71fe47c7929d16aea0c2.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "https://github.com/Radhak8/IdxSpam",
+  "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org.",
+      "required": true,
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Get a bot token from @BotFather",
+      "required": true,
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "pyrogram string session here",
+      "required": true,
+      "value": ""
+    },
+    "STRING_SESSION_2": {
+      "description": "pyrogram string session here !",
+      "required": False,
+      "value": ""
+    },
+    "STRING_SESSION_3": {
+      "description": "pyrogram string session here",
+      "required": False,
+      "value": ""
+    },
+    "STRING_SESSION_4": {
+      "description": "pyrogram string session here",
+      "required": False,
+      "value": ""
+    },
+    "STRING_SESSION_5": {
+      "description": "pyrogram string session here",
+      "required": False,
+      "value": ""
+    },
+    "STRING_SESSION_6": {
+      "description": "pyrogram string session here",
+      "required": False,
+      "value": ""
+    },
+    "STRING_SESSION_7": {
+      "description": "pyrogram string session here",
+      "required": False,
+      "value": ""
+    },
+    "STRING_SESSION_8": {
+      "description": "pyrogram string session here",
+      "required": False,
+      "value": ""
+    },
+    "STRING_SESSION_9": {
+      "description": "pyrogram string session here",
+      "required": False,
+      "value": ""
+    },
+    "STRING_SESSION_10": {
+      "description": "pyrogram string session here",
+      "required": False,
+      "value": ""
+    },
+    "COMMAND_HANDLER": {
+      "description": "!, ., !",
+      "required": true,
+      "value": "!"
+    },
+    "OWNER_ID": {
+      "description": "ENTER ID OF BOT OWNER !",
+      "required": true,
+      "value": ""
+    },
+    "ALIVE_PIC": {
+      "description": "Link of Image !",
+      "required": false,
+      "value": ""
+    },
+    "HELP_PIC": {
+      "description": "Link of Image !",
+      "required": false,
+      "value": ""
+    },
+    "START_PIC": {
+      "description": "Link of Image !",
+      "required": false,
+      "value": ""
+    }
+  }
+    }
